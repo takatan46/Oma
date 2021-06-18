@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omamori.inc_corporate_site</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="news.css">
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+ 
+ <script>
+ $(function(){
+    $('a[href^=#]').click(function() {
+       var speed = 700; 
+       var href= $(this).attr("href"); 
+       var target = $(href == "#" || href == "" ? 'html' : href);
+       var position = target.offset().top;
+       $('body,html').animate({scrollTop:position}, speed, 'swing');
+       return false;
+    });
+ });
+ </script>
+</head>
+
+
+
+<body>
+    <header>
+        <h1 class="header_log">
+             <img src="img/logo_s.png">
+        </h1>
+
+        <div class="header_list">
+            <ul>
+                <a href="#jump"><li>会社紹介</li></a>
+                <a href="#jump_2"><li>サービス</li></a>
+                <a href="#jump_3"><li>ニュースメディア</li></a>
+            </ul>
+            <div class="contact">
+                <a href="https://lin.ee/o2zyNYB"><span class="link ">LINEチャット窓口</span></a>
+                <a href="https://forms.gle/SDnbRqxg3NzcEGmk8"><span class="link left">お問い合わせ</span></a>
+            </div>
+        </div>
+    </header>
+
+         <div class="news_linkout_info">
+            <h1><span>NEWS</span></h1>
+            <h2>LINEを用いた期間限定の相談サービスの新規受付を終了します。</h2>
+                <p>
+                    平素より株式会社Omamoriをご愛顧賜りまして誠にありがとうございます。
+                    </br>
+                    </br>
+                    2020年3月29日から実施していたLINE上での無料相談サービスですが，</br>2020年4月3日をもって新規の相談受付を終了いたします。 </br>
+                    現在友達登録していただいている方の中で，まだ相談できていない方については引き続き相談を受け付けますのでご安心ください。
+                    </br>
+                    </br>
+                    今後とも弊社のサービスをご愛顧賜りますよう，何卒宜しくお願い致します。
+                </p>
+
+        </div>
+    
+
+
+
+        <footer class="footer_f">
+            <div class="footer_f_all">
+    
+                <div class="footer_f_all_log">
+                    <a href="">
+                        <img src="img/omamori_logo_simple.png" alt="株式会社Omamori">
+                    </a>
+                </div>
+    
+                <div class="footer_list">
+                    <ul class="footer_list_item">
+                        <li class="footer_list_item_info"><a href="">プライバシーポリシー</a></li>
+                        <li class="footer_list_item_info"><a href="">お問い合わせ</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer_f_sns">
+                    <ul class="footer_f_sns_list">
+                        <li><a href="https://twitter.com/Omamori_2018" class="flowbtn7 fl_tw7"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/omamori.ja/?hl=ja" class="flowbtn7 insta_btn7"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/Omamori_official-1946766958910793/" class="flowbtn7 fl_fb7"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCQJHa0b9w3HTxEaBe4-knWg?view_as=subscriber" class="flowbtn7 fl_yu7"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+    
+    
+                    <p class="footer_f_copyright"><small>Copyright <span lang="en">&copy;</span> Omamori, Inc.</small> </p>
+                </div>
+            </div>
+    
+            
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+header {
+    background-color:white;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header_log img{
+    width: 120px;
+    padding-left: 30px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 300px;
+    margin-right:120px
+}
+.header_list li{
+    float:left;
+    list-style: none;
+    margin-right: 40px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header_list{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+/* ※お問合せボタン */
+.contact{
+    margin-top: 5px;
+}
+.link {
+    border:solid 2px black;
+    border-radius: 6px;
+    padding:3px;
+    margin-left:50px;
+    font-size: 17px;
+    color: black;
+}
+.header_list a{
+    text-decoration: none;
+}
+.left{
+    margin-left: 10px;
+}
+.link:hover {
+    background-color: #ff8c00;
+    opacity: 0.7px;
+}
+/* ※お問合せボタン */
+
+
+
+
+.news_linkout_info{
+
+    text-align: center;
+    font-size: 40px;
+    height: 1000px;
+    margin: 150px 200px;
+    padding-top: 50px;
+}
+.news_linkout_info h1{
+    font-size: 1em;
+}
+.news_linkout_info h1 span{
+    border-bottom: solid #F08317;
+}
+.news_linkout_info h2{
+    font-size: 0.7em;
+    margin-top: 50px; 
+}
+.news_linkout_info p{
+    text-align: left;
+    font-size: 0.5em;
+    margin: 50px 150px; 
+}
+
+
+
+
+
+
+
+/* ボタン全体 */
+.flowbtn7{
+    border-radius:50%;
+    position:relative;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    font-size:30px;
+    color:#fff!important;
+    text-decoration:none;
+    transition:.5s;	
+}
+
+    /* アイコンをど真ん中に*/
+.flowbtn7 i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+    /* ボタン全体の位置 */
+.sns{
+    list-style-type:none!important;
+    display:flex;
+    margin: 0 550px;
+}
+    
+
+    /* ボタン同士の余白 */
+.sns li{
+    margin: 50px 20px;
+}
+    /* ボタンにマウスを乗せた時 */
+.flowbtn7:hover{
+    -webkit-transform:translateY(-5px);
+    -ms-transform:translateY(-5px);
+    transform:translateY(-5px);
+}
+
+    /* Twitter */
+    .fl_tw7{
+    background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+    }
+
+    /* Instagramアイコン位置 */
+    .insta_btn7 .fa-instagram{
+    font-size:35px;	
+    }
+    /* Instagram紫グラデ背景 */
+    .insta_btn7{
+    background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    overflow:hidden;	
+    }
+    /* Instagramオレンジグラデ背景 */
+    .insta_btn7:before{
+    content: '';
+    position:absolute;
+    top:27px;
+    left:-12px;
+    width:59px;
+    height:40px;
+    background:-webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+    background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+    }
+
+    /* Facebook */
+    .fl_fb7{
+    background: linear-gradient(135deg, #6699ff 0%,#3b5998 100%);
+    }
+    
+    /* YouTube */
+    .fl_yu7{
+    background:linear-gradient(135deg, #f5515f 0%,#c9293c 100%);
+    font-size:26px;
+    }
+    
+.footer_f{
+    text-align: center;
+    background-color: black;
+    height: 400PX;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer_list{
+    padding: 0 550px;
+}
+.footer_f_all_log img{
+    height: 40px;
+    margin-top: 50px;
+}
+.footer_list_item_info {
+    float: left;
+    list-style: none;
+    margin: 30px 0;
+    padding: 0 15px;
+}
+.footer_list_item_info a{
+    color: white;
+    text-decoration: none;
+}
+.footer_f_sns{
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.footer_f_sns_list li{
+    float: left;
+    list-style: none;
+    margin: 0px 20px;
+}
+.footer_f_copyright{
+    font-size: 20px;
+    padding-top: 100px;
+    margin-right: 550px;
+}

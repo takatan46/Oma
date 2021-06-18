@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omamori.inc_corporate_site</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="omamori.css">
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+ 
+ <script>
+ $(function(){
+    $('a[href^=#]').click(function() {
+       var speed = 700; 
+       var href= $(this).attr("href"); 
+       var target = $(href == "#" || href == "" ? 'html' : href);
+       var position = target.offset().top;
+       $('body,html').animate({scrollTop:position}, speed, 'swing');
+       return false;
+    });
+ });
+ </script>
+ <!-- ビューポートの設定 -->
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+
+<body>
+    <header>
+        <h1 class="header_log">
+             <img src="img/omamori_logo_simple.png">
+        </h1>
+
+        <div class="header_list">
+            <ul>
+                <a href="#jump"><li>会社紹介</li></a>
+                <a href="#jump_2"><li>サービス</li></a>
+                <a href="#jump_3"><li>ニュースメディア</li></a>
+            </ul>
+            <div class="contact">
+                <a href="https://lin.ee/o2zyNYB"><span class="link ">LINEチャット窓口</span></a>
+                <a href="https://forms.gle/SDnbRqxg3NzcEGmk8"><span class="link left">お問い合わせ</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="all">
+
+        <div class=messeage>
+            <h1>Ready to enrich your emotions?</h1>
+            <h2>さぁ、感情を豊かにする準備はできましたか？</h2>
+        </div>
+
+    </section>
+    
+    <section class="index">
+        <div class="content" id="jump">
+            <h1><span>About Omamori</span></h1>
+                <div class="content_list">
+                    <h2>Mission</h2>
+                </div>
+                <div class="content_list_messeage">
+                     <h3>人の感情を豊かにする</h3>
+                        <p>20人に1人。</br>これは世界の精神疾患患者の割合です。</br>
+                            変化がめまぐるしい現代社会にあって、知らないうちにストレスが溜まっていたり，常に何かの悩みを抱えながら生活している方がほとんどです。
+                            しかし私たちが住む日本では、悩みを相談する文化や、感情をケアできる仕組みはまだまだ整っていません。</br>
+                            そこで私たちは、誰もが気軽に悩みを相談し、自分の感情を常にケアできる社会を創ります。</br>
+                            いつ・どんな時も・どこでも・誰でも、悩みを相談・解決できるオンラインカウンセリングルーム「Omamori」を提供し、日本から世の中の感情を豊かにしていきます。
+                         </p>
+                </div>
+
+                <div class="content_list">
+                    <h2>Value</h2>
+                </div>
+
+                <div class="content_list_messeage">
+                    <h3>素直でいよう</h3>
+                        <p>相手を想う心を持ち続けて、歳を重ねても「ありがとう」「ごめん」が言える人に。</p>
+                    <h3>果敢にやろう</h3>
+                        <p>臆せず自分で考えたことを実行してみる。自分の意志を大切に。</p>
+                    <h3>開放しよう</h3>
+                        <p>情報も自分もオープンに。</p>
+                </div>
+            
+
+                <div class="content_list">
+                    <h2>会社概要</h2>
+                </div>
+                <dl class="index_list_info">
+                    <dt class="index_list">会社名</dt>
+                    <dd class="index_info">株式会社Omamori</dd>
+
+                    <dt class="index_list">設立日</dt>
+                    <dd class="index_info">2019年5月31日</dd>
+
+                    <dt class="index_list">サービス内容</dt>
+                    <dd class="index_info">インターネットサービスの企画・開発・運営</dd>
+
+                    <dt class="index_list">代表者</dt>
+                    <dd class="index_info">髙田雄介</dd>   
+                </dl>           
+        </div>
+    
+            
+        
+        <div class="content" id="jump_2">
+            <h1><span>service</span></h1>
+            <h3 class="list">オンラインカウンセリングルーム「Omamori」</h3>
+                <p class="info">
+                    現在開発を進めているオンラインで臨床心理士へ相談ができるサービスです（左の動画はリリース後の使用イメージです）。</br>
+                    20人に1人が精神疾患に罹患している現在の日本では、メンタルヘルスの維持・向上が喫緊の課題です。
+                    あなたが精神的にしんどいと感じたとき、あなたに合ったカウンセラーがメンターとなってくれたなら一歩でも前に進めるはず。
+                    メンターとの出会いから悩みの解決まで、スマホ一台で簡単に実現できる環境を構築して、メンタルヘルスに悩む人が前に進める社会を目指しています。
+                </p>
+        </div>
+
+
+        
+        <div class="content" id="jump_3">
+            <h1><span>NEWS</span></h1>
+            <dl class="news_index">
+
+                <dt class="days">2020年04月03日</dt>
+                <dd><a href="" class="news_info">LINEを用いた期間限定の相談サービスの新規受付を終了します。</a></dd>
+
+                <dt class="days">2020年03月29日</dt>
+                <dd><a href="" class="news_info">LINEを用いた期間限定の相談サービスを開始します。</a></dd>
+
+                <dt class="days">2020年03月05日</dt>
+                <dd><a href="" class="news_info">弊社の新ロゴマークを公開いたしました！</a></dd>
+
+                <dt class="days">2020年02月17日</dt>
+                <dd><a href="" class="news_info">LINE@での相談サービスの新規ご相談受付の停止。</a></dd>
+
+                <dt class="days">2020年01月22日</dt>
+                <dd><a href="" class="news_info">Omamoriの公式noteを開設いたしました。</a></dd>
+
+                <dt class="days">2019年12月30日</dt>
+                <dd><a href="" class="news_info">MOSSのみなさん，臨床心理士の中村さんと合同で忘年会を行いました。</a></dd>
+
+                <dt class="days">2019年12月01日</dt>
+                <dd><a href="" class="news_info">コーポレートサイトが公開されました。</a></dd>
+
+                <dt class="days">2019年05月31日</dt>
+                <dd><a href="" class="news_info">株式会社Omamoriを設立いたしました。</a></dd>
+            </dl>
+
+            
+           
+        </div>
+    </section>
+
+
+
+    <ul class="sns">
+        <li><a href="https://twitter.com/Omamori_2018" class="flowbtn7 fl_tw7"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/omamori.ja/?hl=ja" class="flowbtn7 insta_btn7"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/Omamori_official-1946766958910793/" class="flowbtn7 fl_fb7"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCQJHa0b9w3HTxEaBe4-knWg?view_as=subscriber" class="flowbtn7 fl_yu7"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+
+
+    <footer class="footer_f">
+        <div class="footer_f_all">
+
+            <div class="footer_f_all_log">
+                <a href="">
+                    <img src="img/omamori_logo_simple.png" alt="株式会社Omamori">
+                </a>
+            </div>
+
+            <div class="footer_list">
+                <ul class="footer_list_item">
+                    <li class="footer_list_item_info"><a href="">プライバシーポリシー</a></li>
+                    <li class="footer_list_item_info"><a href="">お問い合わせ</a></li>
+                </ul>
+            </div>
+
+                <p class="footer_f_copyright"><small>Copyright <span lang="en">&copy;</span> Omamori, Inc.</small> </p>
+            </div>
+        </div>
+
+        
+    </footer>
+
+</body>
+</html>
+
